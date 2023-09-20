@@ -1,5 +1,5 @@
 # Tic Tac Toe Web Game
-The Tic Tac Toe web game project consists of both front-end using HTML, CSS, and JavaScript and back-end components using C and Python (Flask).
+The Tic Tac Toe web game project consists of both front-end components using HTML, CSS, and JavaScript and back-end components using C and Python (Flask).
 
 ## Communication Flow:
    - ### The front-end (HTML, CSS, JavaScript) handles user interactions and sends game-related requests to the Python server.
