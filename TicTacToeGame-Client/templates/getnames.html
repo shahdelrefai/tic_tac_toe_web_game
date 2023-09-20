@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        <section>
+            <form action="/" method="post">
+                <section>
+                    <input autocomplete="off" autofocus name="name1" placeholder="Player 1 Name" type="text">
+                    <input autocomplete="off" name="name2" placeholder="Player 2 Name" type="text">
+                </section>
+                <section class="controls">
+                    <button type="submit">Start Game</button>
+                </section>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
